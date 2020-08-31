@@ -23,7 +23,7 @@ public class ClientPlayNetworkHandlerMixin {
 		double x = pkt.getX();
 		double y = pkt.getY();
 		double z = pkt.getZ();
-		if (pkt.getEntityTypeId() == QueerbricsEntityTypes.throwableBrick) {
+		if (pkt.getEntityTypeId() == QueerbricsEntityTypes.THROWABLE_BRICK) {
 			toSpawn = new ThrowableBrickEntity(this.world, pkt.getX(), pkt.getY(), pkt.getZ());
 		}
 

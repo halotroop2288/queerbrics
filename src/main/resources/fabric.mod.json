@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "queerbrics",
-  "version": "0.1.0",
+  "version": "${version}",
 
   "name": "Queerbrics",
   "description": "Adds pride brics to decorate with and throw at your enemies. Be gay, do crimes.",
@@ -27,6 +27,7 @@
   "mixins": [
     "queerbrics.mixins.json"
   ],
+  "accesswidener": "queerbrics.aw",
 
   "depends": {
     "fabricloader": ">=0.7.4",
